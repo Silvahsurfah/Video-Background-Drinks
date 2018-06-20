@@ -1,0 +1,84 @@
+/*Veiwport width(vw) and viewport height(vh)= size is 1% of viewport  width; ex. if screen is 960px, font at 1vw is around 9px*/
+
+
+
+*{
+	box-sizing: border-box;
+}
+
+body {
+	margin:0;
+	font-family: palatino linotype, helvetica, sans-serif;
+	font-size: 16px;
+	
+}
+
+.fullscreen-video-wrap {
+	position: fixed;
+	bottom: 0;
+	left:0;
+	width: 100%;
+	height: 100vh;
+}
+
+.fullscreen-video-wrap video {
+	min-height: 100%;
+	min-width: 100%;
+}
+
+.fullscreen-overlay {
+	background: #fff;
+	height: 100vh;
+	width: 100vw;
+	position: fixed;
+	opacity: 0.3;	
+	
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	background: rgba(255,255,255,0.7);
+	width: 100%;
+	color: #000;
+	}
+
+#brand h1 {
+	float: left;
+	font-family: monotype corsiva, helvetica; sans-serif;
+	font-size: 30px;
+	padding-left: 20px;
+}
+
+ul {
+	float:right;
+	padding-top: 10px;
+}
+
+nav li {
+	display: inline;
+}
+
+nav li a {
+	text-decoration: none;
+	padding-right: 30px;
+	font-size:1.25rem;
+	color: #000;
+}
+
+nav a:hover {
+	color: #fff;
+}
+
+footer {
+	position: fixed;
+	bottom:0;
+	background: rgba(255,255,255,0.7);
+	width: 100%;
+}
+
+footer p {
+	padding-left: 1rem;
+}
+
+
